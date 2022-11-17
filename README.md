@@ -4,7 +4,7 @@ This Application for library.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.0.1
 
 * System dependencies
 
