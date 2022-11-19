@@ -2,10 +2,10 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-
+This
 Things you may want to cover:
 
-* Ruby version 3.0.1
+* Ruby version
 
 * System dependencies
 
@@ -13,7 +13,7 @@ Things you may want to cover:
 
 * Database creation
 
-* Database postgresql
+* Database initialization
 
 * How to run the test suite
 
@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* Rails 7.0.4
+* ...
