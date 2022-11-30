@@ -10,8 +10,6 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
-
 * Database postgresql
 
 * How to run the test suite
