@@ -1,7 +1,6 @@
-# README
+# LIBRARY ONE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Application for library.
 
 Things you may want to cover:
 
@@ -19,4 +18,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
+
 * Rails 7.0.4
+
+* ...
+
+Author : Miftah MD
+
+
