@@ -10,7 +10,7 @@ Things you may want to cover:
 
 * Configuration
 
-* Database postgresql
+* Database postgresql 12.12
 
 * How to run the test suite
 
