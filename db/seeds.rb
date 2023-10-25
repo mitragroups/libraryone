@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Author.create(name: "Mua'ammar", age: 9, gender: 'Male', address: 'Medan')
+Author.create(name: "Mafaaza", age: 5, gender: 'Female', address: 'Tebing Tinggi')
+Author.create(name: "Mahreen", age: 3, gender: 'Female', address: 'Bogor')
