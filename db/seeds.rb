@@ -5,6 +5,11 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+=begin 
 Author.create(name: "Mua'ammar", age: 9, gender: 'Male', address: 'Medan')
 Author.create(name: "Mafaaza", age: 5, gender: 'Female', address: 'Tebing Tinggi')
 Author.create(name: "Mahreen", age: 3, gender: 'Female', address: 'Bogor')
+=end
+Book.create(title: 'Go-Lang', price: 60_000, page: 60, description: 'Bahasa pemrograman dari Google')
+Book.create(title: 'Java Springboot', price: 475_000, page: 475, description: 'Framework Springboot untuk Java')
+Book.create(title: 'Laravel', price: 250_000, page: 250, description: 'PHP Framework for Web Development')
