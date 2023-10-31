@@ -14,6 +14,6 @@ class Book < ApplicationRecord
     end
 
     def self.ror 
-        where(title: 'Buku Ruby on Rails')
+        where(title: 'Buku Ruby on Rails').pluck(:price)
     end
 end
