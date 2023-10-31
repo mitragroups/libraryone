@@ -8,4 +8,8 @@ class Author < ApplicationRecord
     def self.urutan_usia 
         order(age: :asc)
     end
+
+    def self.oldest
+        order(age: :desc).pluck(:name)
+    end
 end
