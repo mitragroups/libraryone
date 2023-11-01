@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   get 'authors/index'
   resources :books
   get 'demo/index'
@@ -9,4 +10,6 @@ Rails.application.routes.draw do
   # root "books#index"
   get 'demo/iseng'
   get 'demo/coba'
+
+  get 'home/rumah'
 end
