@@ -5,4 +5,8 @@ class DemoController < ApplicationController
   def iseng
     render plain: 'Iseng - iseng aja guys'
   end
+
+  def coba 
+    render 'demo/show'
+  end
 end
