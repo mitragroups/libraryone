@@ -16,4 +16,8 @@ class Book < ApplicationRecord
     def self.ror 
         where(title: 'Buku Ruby on Rails').pluck(:price)
     end
+
+    def self.buku_termahal 
+        order(price: :asc).pluck(:title, :price, :page)
+    end
 end
