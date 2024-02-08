@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'home/index'
 
-  #resources :authors
+  resources :authors
   get 'authors/author_male'
   
   get 'demo/index'
