@@ -4,6 +4,8 @@ class AuthorsController < ApplicationController
   end
   
   def show 
+    id = params[:id]
+    @author = Author.find(id)
   end
 
   def author_male

@@ -1,10 +1,20 @@
-<h1>Authors</h1>
-
-<div id="authors">
-    <% @authors.each do |author| %>
-        <%= render author %>
-    <p>
-        <%= link_to "Show this author", author %>
-    </p>
+<table>
+    <tr>
+        <td>ID </td>
+        <td>Nama </td>
+        <td>Umur </td>
+        <td>Jenis Kelamin </td>
+        <td>Alamat </td>
+        <td>Action </td>
+    </tr>
+    <% @authors.each do |penulis| %>
+    <tr>
+        <td><%= penulis.id %> </td>
+        <td><%= penulis.name %> </td>
+        <td><%= penulis.age %> </td>
+        <td><%= penulis.gender %> </td>
+        <td><%= penulis.address %> </td>
+        <td><%= link_to 'Detail', author_path(penulis) %>
+    </tr>
     <% end %>
-</div>
+</table>
